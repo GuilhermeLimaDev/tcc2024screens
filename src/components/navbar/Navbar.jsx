@@ -3,9 +3,16 @@ import "./nav.module.css";
 
 const Navbar = () => {
   return (
-    <Nav variant="underline" className="justify-content ms-5 mt-2" as="nav">
+    <Nav
+      variant="underline"
+      className="justify-content ms-5 mt-2"
+      as="nav"
+    >
       <Nav.Item>
-        <Nav.Link className="link-body-emphasis" href="/">
+        <Nav.Link
+          className="link-body-emphasis"
+          href="/"
+        >
           Reports
         </Nav.Link>
       </Nav.Item>
