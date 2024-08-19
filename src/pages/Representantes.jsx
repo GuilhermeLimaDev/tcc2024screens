@@ -1,12 +1,16 @@
 import Footer from "../components/footer/Footer";
 import Navbar from "../components/navbar/Navbar";
+import TableRepresentantes from "../components/tablerepresentantes/TableRepresentantes";
+import "./global.module.css";
 
 export default function Representantes() {
   return (
     <>
-      <Navbar />
-      <p>Sou a página de representantes</p>
-      <Footer />
+      <div className="">
+        <Navbar />
+        <TableRepresentantes />
+        <Footer />
+      </div>
     </>
   );
 }
